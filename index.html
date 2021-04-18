@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+
+<body>
+    <div class="aligner">
+        <div>
+            <h1>.Koenraadt</h1>
+        </div>
+    </div>
+</body>
+<style>
+    :root {
+        --size: 8vw;
+    }
+
+    * {
+        color: #111111;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+    }
+
+    div.aligner {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+        background: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h1 {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        font-size: var(--size);
+        text-align: center;
+        vertical-align: center;
+        text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    h2 {
+        text-align: center;
+        width: 100%;
+        font-size: calc(var(--size) * 0.2)
+    }
+
+    @media only screen and (max-width: 768px) {
+        :root {
+        --size: 12vw;
+    }
+    }
+</style>
+
+</html>
